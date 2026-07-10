@@ -44,6 +44,12 @@
 .btn-outline:hover {
     background-color: #f3f4f6;
 }
+.btn-outline {
+    background-color: transparent;
+    color: black;
+    border: 1px solid ;
+}
+
 
 .navbar {
     display: flex;
@@ -247,9 +253,104 @@ button{
 
 
 
+/* it section is full guidlien by ai {INTERACTIVE HACKATHON SECTION} */
 
 
 
+
+
+.hackathon-section {
+    padding: 80px 10%;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.hackathon-badge {
+    display: inline-block;
+    background-color: #eff6ff;
+    color: #1d4ed8;
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding: 6px 16px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 0.5px;
+    border: 1px solid rgba(29, 78, 216, 0.15);
+}
+
+.hackathon-subtitle {
+    max-width: 650px;
+    margin: -15px auto 50px auto;
+    color: #6b7280;
+    font-size: 1.05rem;
+}
+
+
+.hackathon-features {
+    display: grid;
+    /* it are make guidlin by ai */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.feature-box {
+    background-color: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 30px 20px;
+    text-align: left;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.feature-box:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
+}
+
+.feature-icon {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.feature-box h4 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #111827;
+}
+
+.feature-box p {
+    color: #6b7280;
+    font-size: 0.95rem;
+}
+
+
+.hackathon-action-box {
+    background-color: #0b1329;
+    color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    max-width: 750px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+
+.hackathon-action-box p {
+    font-size: 1.1rem;
+    color: #e2e8f0;
+    max-width: 450px;
+}
+
+.hackathon-action-box strong {
+    color: #ffffff;
+    display: block;
+    font-size: 1.25rem;
+    margin-bottom: 4px;
+}
 
 /* footer part */
 /* guide line by ai */
