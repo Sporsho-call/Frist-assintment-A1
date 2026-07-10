@@ -1,0 +1,1 @@
+I am designing a landing page for a tech conference website named DevConf 2026. The site's main theme uses a royal blue brand color and a dark midnight blue color.Please create an engaging and highly relevant 'Midnight CTF Challenge & Hackathon' section to replace an empty placeholder banner on my page.
