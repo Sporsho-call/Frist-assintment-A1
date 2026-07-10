@@ -25,6 +25,7 @@
 .btn-blue {
     background-color:blue;
     color: #ffffff;
+    margin-top: 300px;
 }
 .btn-blue:hover {
     background-color: #1e40af;
@@ -70,7 +71,7 @@ button{
     text-align: center;
     font-size: 2.2rem;
     font-weight: 700;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
  .hero {
      background-color: #070e21; 
